@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/6c98c25f0f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+      <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi! I'm <span>GokilaVani</span></h1>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="about">
+        <div class="container">
+             <div class="row">
+                <div class="about col-1">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> My objective is simply to be the best web developer that I can be and
+                        to contribute to the technology industry <br>all that I know and can do.
+                        am dedicated to perfecting my craft by learning from more seasoned
+                        developers, remaining <br>humble, and continuously making strides to learn
+                        all that I can about development.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('strengths')">Strengths</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul type="none">
+                                <li><span>2022 - 2023</span><br>MERN Stack Course from GUVI,Chennai.</li>
+                                <li><span>2017 - 2020</span><br>B.Com (CSCA) from KASC, Erode.</li>
+                                <li><span>2015 - 2017</span><br>HSC from MMHS School, Mettupalayam.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul type="none">
+                                <li><span>Transaction Processing Associate</span><br>at Accenture Solutions,Chennai.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="strengths">
+                            <ul type="none">
+                                <li>Good Communication Skill</li>
+                                <li>Quick Learner</li>
+                                <li>Listening Skills</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobbies">
+                            <ul type="none">
+                                <li>Listening to music</li>
+                                <li>Drawing</li>
+                            </ul>
+                        </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <!--------------------------------------------Skills------------------------------------------->
+    
+    <div id="skills">
+        <div class="container">
+                    <h1 class="sub-title">Technical Skills</h1>
+<div class="skills-list">
+   <div>
+    <i class="fa-brands fa-square-js fa-lg" style="color: #f8fd08;"></i> 
+    <i class="fa-brands fa-node fa-lg"  style="color: #30b715;"></i>
+    <br>
+    <br>
+    <h2>Language</h2>
+    <p>Javascript<br>NodeJS</p>
+   </div>
+   <div>
+    <i class="fa-solid fa-database fa-lg" style="color: #189410;"></i>
+    <br>
+    <br>
+    <h2>Databse</h2>
+    <p>MongoDB<br>MySQL</p>
+   </div>
+   <div>
+    <i class="fa-solid fa-code fa-lg"></i>
+    <br>
+    <br>
+    <h2>Web Tools</h2>
+    <p>HTML, CSS, Bootstrap<br>React, Express<br>Git, Postman</p>
+   </div>
+</div>
+</div>
+</div>
+
+
+<!-----------------------------------portfolio------------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.jpeg"></img>
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>(Working on it)</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-1.jpeg"></img>
+                <div class="layer">
+                    <h3>Ticket Booking</h3>
+                    <p>(Working on it)</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-1.jpeg"></img>
+                <div class="layer">
+                    <h3>Online Shopping</h3>
+                    <p>(Working on it)</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------------------------------------contact------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>gokilamaibalan64@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>9080922210</p>
+            <div class="social-icons">
+              <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+             <!--  cv here -->
+            <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+           
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright ©️ Gokilavani</p>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
